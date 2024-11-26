@@ -7,7 +7,7 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Entry x:Name="Display" Keyboard="Numeric"></Entry>
+            <Entry HorizontalOptions="Start" x:Name="Display" Keyboard="Numeric" WidthRequest="300"></Entry>
 
             <Grid ColumnSpacing="5" RowSpacing="5">
                 <Grid.RowDefinitions>
